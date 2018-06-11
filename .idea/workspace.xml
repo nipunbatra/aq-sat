@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="620f6459-befd-415d-887e-4aca2d20b40b" name="Default" comment="" />
+    <list default="true" id="620f6459-befd-415d-887e-4aca2d20b40b" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/Readme.md" afterPath="$PROJECT_DIR$/Readme.md" />
+      <change beforePath="$PROJECT_DIR$/pm25-modis.ipynb" afterPath="$PROJECT_DIR$/pm25-modis.ipynb" />
+      <change beforePath="$PROJECT_DIR$/process_downloaded_modis.py" afterPath="$PROJECT_DIR$/process_downloaded_modis.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,7 +19,7 @@
         <entry file="file://$PROJECT_DIR$/process_downloaded_modis.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="264">
-              <caret line="12" column="44" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="135" selection-end-column="34" />
+              <caret line="12" column="40" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="135" selection-end-column="34" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -23,17 +27,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="process_downloaded_modis_3k.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="creating-common-dataset-10k.ipynb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/creating-common-dataset-10k.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="0" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="process_downloaded_modis_3k.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/process_downloaded_modis_3k.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="12" column="44" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="138" selection-end-column="33" />
+            <state relative-caret-position="554">
+              <caret line="138" column="31" lean-forward="false" selection-start-line="138" selection-start-column="14" selection-end-line="138" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="download_aq_data.ipynb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="download_aq_data.ipynb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/download_aq_data.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
@@ -68,9 +81,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/station-location.txt" />
-        <option value="$PROJECT_DIR$/process_downloaded_modis.py" />
         <option value="$PROJECT_DIR$/download_aq_data.ipynb" />
         <option value="$PROJECT_DIR$/process_downloaded_modis_3k.py" />
+        <option value="$PROJECT_DIR$/process_downloaded_modis.py" />
       </list>
     </option>
   </component>
@@ -214,28 +227,63 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/download_aq_data.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/process_downloaded_modis.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
-          <caret line="12" column="44" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="135" selection-end-column="34" />
+          <caret line="12" column="40" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="135" selection-end-column="34" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/process_downloaded_modis_3k.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="12" column="44" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="138" selection-end-column="33" />
-          <folding />
+    <entry file="file://$PROJECT_DIR$/pm25-downsample.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/download_aq_data.ipynb">
+    <entry file="file://$PROJECT_DIR$/pm25-modis.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
-          <selected id="2" />
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regression.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modis-to-pm25-regression.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/creating-common-dataset-10k.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/process_downloaded_modis_3k.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="554">
+          <caret line="138" column="31" lean-forward="false" selection-start-line="138" selection-start-column="14" selection-end-line="138" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>
