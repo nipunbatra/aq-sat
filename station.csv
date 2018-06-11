@@ -1,14 +1,34 @@
-S. No,Location,Latitude,Longitude
-1,Mandir,28.63409996,77.20050049
-2,Pusa,28.637672,77.157144
-3,Shadipur,28.65169907,77.15809631
-4,Punjabi Bagh,28.66830063,77.11669922
-5,IGI Airport,28.56,77.094
-6,NSIT Dwarka,28.5909996,77.05000305
-7,Aya Nagar,28.48,77.13
-8,CRRI Mathura,28.55,77.28
-9,R K Puram,28.56480026,77.17440033
-10,Sirifort,28.54965,77.21215
-11,US Diplomatic Post: New Delhi,28.63575935,77.22444916
-12,ITO,28.62350082,77.24939728
-13,Lodhi Road,28.59,77.24
+S. No,Location,Latitude,Longitude,,,
+1,"Anand Vihar, Delhi - DPCC",28.6508,77.3152,,,
+2,"Ashok Vihar, Delhi - DPCC",28.688455,77.17575,,,
+3,"Aya Nagar, New Delhi - IMD",28.48,77.13,,,
+4,"Burari Crossing, New Delhi - IMD",28.72835,77.197484,,,
+5,"CRRI Mathura Road, New Delhi - IMD",28.55,77.28,,,
+6,"DTU, New Delhi - CPCB",28.7504,77.11717,,,
+7,"Dr. Karni Singh Shooting Range, Delhi - DPCC†",28.499727,77.267095,,,
+8,"Dwarka-Sector 8, Delhi - DPCC",28.572038,77.070837,,,
+9,"East Arjun Nagar, Delhi - CPCB",28.655602,77.294687,,,
+10,"IGI Airport Terminal - 3, New Delhi - IMD",28.56,77.094,,,
+11,"IHBAS, Dilshad Garden,New Delhi - CPCB",28.68255,77.30512,,,
+12,"ITO, New Delhi - CPCB",28.62406,77.2411,,,
+13,"Jahangirpuri, Delhi - DPCC",28.725833,77.162752,,,
+14,"Jawaharlal Nehru Stadium, Delhi - DPCC",28.582846,77.234366,,,
+15,"Lodhi Road, New Delhi - IMD",28.59,77.24,,,
+16,"Major Dhyan Chand National Stadium, Delhi - DPCC",28.612442,77.237272,,,
+17,"Mandir Marg, New Delhi - DPCC",28.6341,77.2005,,,
+18,"NSIT Dwarka, New Delhi - CPCB",28.608052,77.036187,,,
+19,"Najafgarh, Delhi - DPCC",28.609013,76.985453,,,
+20,"Narela, Delhi - DPCC",28.85396,77.091784,,,
+21,"Nehru Nagar, Delhi - DPCC",28.563867,77.26081,,,
+22,"North Campus, DU, New Delhi - IMD",28.688812,77.207271,,,
+23,"Okhla Phase-2, Delhi - DPCC",28.535763,77.276433,,,
+24,"Patparganj, Delhi - DPCC",28.619988,77.292355,,,
+25,"Punjabi Bagh, Delhi - DPCC",28.6683,77.1167,,,
+26,"Pusa, New Delhi - IMD",28.637672,77.157144,,,
+27,"R K Puram, New Delhi - DPCC",28.5648,77.1744,,,
+28,"Rohini, Delhi - DPCC",28.749472,77.056533,,,
+29,"Shadipur, New Delhi - CPCB",28.651558,77.158194,,,
+30,"Sirifort, New Delhi - CPCB",28.54965,77.21215,,,
+31,"Sonia Vihar, Delhi - DPCC",28.733247,77.249589,,,
+32,"Vivek Vihar, Delhi - DPCC",28.671246,77.317654,,,
+33,"Wazirpur, Delhi - DPCC",28.700217,77.16379,,,
