@@ -10,7 +10,7 @@ station = pd.read_csv("station.csv", index_col=0)
 
 
 
-base_path = os.path.expanduser("~/modis_2016/")
+base_path = os.path.expanduser("~/modis_2015/")
 fileList = glob.glob(f"{base_path}*.hdf")[:]
 #loops through all files listed in the text file
 out = []
@@ -136,4 +136,4 @@ for index, FILE_NAME in enumerate(fileList):
         o.append(t)
     out.append(pd.concat(o))
 modis = pd.concat(out)
-modis.to_csv("modis-2016-3k.csv")
+modis.to_csv("modis-2015-3k.csv")
