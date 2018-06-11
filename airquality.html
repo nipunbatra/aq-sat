@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_333ab1284f844cebba8d8da4ebedb983 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_333ab1284f844cebba8d8da4ebedb983" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_333ab1284f844cebba8d8da4ebedb983 = L.map(
+                                  'map_333ab1284f844cebba8d8da4ebedb983',
+                                  {center: [46.93554875999999,7.8698101],
+                                  zoom: 8,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_3c0a2018ae584ae2a9f9e21cee6da3f0 = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_333ab1284f844cebba8d8da4ebedb983);
+        
+    
+
+            var marker_f1e56f10d47d40279b56e43b32c10a6c = L.marker(
+                [46.8131,6.9444804],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_333ab1284f844cebba8d8da4ebedb983);
+            
+    
+            var popup_e5ef6e28746645a18955507a3b40b8d7 = L.popup({maxWidth: '300'});
+
+            
+                var html_16e2b33d4d1649bc968cb2ccd1696553 = $('<div id="html_16e2b33d4d1649bc968cb2ccd1696553" style="width: 100.0%; height: 100.0%;">{"city":"Vaud","coordinates.latitude":46.8131,"coordinates.longitude":6.9444804,"count":24623,"country":"CH","firstUpdated":1506063600000,"lastUpdated":1526284800000,"location":"CH0002R","parameters":["no2","o3","pm10","pm25","so2","co"],"sourceName":"EEA Switzerland","sourceNames":["EEA Switzerland"]}</div>')[0];
+                popup_e5ef6e28746645a18955507a3b40b8d7.setContent(html_16e2b33d4d1649bc968cb2ccd1696553);
+            
+
+            marker_f1e56f10d47d40279b56e43b32c10a6c.bindPopup(popup_e5ef6e28746645a18955507a3b40b8d7);
+
+            
+        
+    
+
+            var marker_e222b1058a8c4c6a9c3e429fc285eedb = L.marker(
+                [47.479774,8.904676],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_333ab1284f844cebba8d8da4ebedb983);
+            
+    
+            var popup_85f74f277ac2451491699030174009ba = L.popup({maxWidth: '300'});
+
+            
+                var html_789ddd65296a4382840485f455b09317 = $('<div id="html_789ddd65296a4382840485f455b09317" style="width: 100.0%; height: 100.0%;">{"city":"Thurgau","coordinates.latitude":47.479774,"coordinates.longitude":8.904676,"count":12868,"country":"CH","firstUpdated":1506060000000,"lastUpdated":1526284800000,"location":"CH0003R","parameters":["o3","pm10","no2"],"sourceName":"EEA Switzerland","sourceNames":["EEA Switzerland"]}</div>')[0];
+                popup_85f74f277ac2451491699030174009ba.setContent(html_789ddd65296a4382840485f455b09317);
+            
+
+            marker_e222b1058a8c4c6a9c3e429fc285eedb.bindPopup(popup_85f74f277ac2451491699030174009ba);
+
+            
+        
+    
+
+            var marker_a34ef19b176d45898828ba34d4852fd7 = L.marker(
+                [47.049515,6.979209],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_333ab1284f844cebba8d8da4ebedb983);
+            
+    
+            var popup_61baab1c03ab4408ba7f70b736e660ae = L.popup({maxWidth: '300'});
+
+            
+                var html_02cdf72565b349538970f7e96f4f926b = $('<div id="html_02cdf72565b349538970f7e96f4f926b" style="width: 100.0%; height: 100.0%;">{"city":"Neuch\u00e2tel","coordinates.latitude":47.049515,"coordinates.longitude":6.979209,"count":11516,"country":"CH","firstUpdated":1506060000000,"lastUpdated":1526284800000,"location":"CH0004R","parameters":["o3","pm10","no2"],"sourceName":"EEA Switzerland","sourceNames":["EEA Switzerland"]}</div>')[0];
+                popup_61baab1c03ab4408ba7f70b736e660ae.setContent(html_02cdf72565b349538970f7e96f4f926b);
+            
+
+            marker_a34ef19b176d45898828ba34d4852fd7.bindPopup(popup_61baab1c03ab4408ba7f70b736e660ae);
+
+            
+        
+    
+
+            var marker_c56ab5847584401789d7f44d95180869 = L.marker(
+                [47.402916,8.613398],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_333ab1284f844cebba8d8da4ebedb983);
+            
+    
+            var popup_a7b8c021f327429e9e4aeb7d6ee9e986 = L.popup({maxWidth: '300'});
+
+            
+                var html_ceef12c1b01747cab0039c3151eb9664 = $('<div id="html_ceef12c1b01747cab0039c3151eb9664" style="width: 100.0%; height: 100.0%;">{"city":"Z\u00fcrich","coordinates.latitude":47.402916,"coordinates.longitude":8.613398,"count":23720,"country":"CH","firstUpdated":1506063600000,"lastUpdated":1526284800000,"location":"CH0005A","parameters":["co","o3","so2","pm25","no2","pm10"],"sourceName":"EEA Switzerland","sourceNames":["EEA Switzerland"]}</div>')[0];
+                popup_a7b8c021f327429e9e4aeb7d6ee9e986.setContent(html_ceef12c1b01747cab0039c3151eb9664);
+            
+
+            marker_c56ab5847584401789d7f44d95180869.bindPopup(popup_a7b8c021f327429e9e4aeb7d6ee9e986);
+
+            
+        
+    
+
+            var marker_201b3a39ad0544488f310747d627721d = L.marker(
+                [47.067387,8.463334],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_333ab1284f844cebba8d8da4ebedb983);
+            
+    
+            var popup_f352a09eda9e468f96d2660c8581039c = L.popup({maxWidth: '300'});
+
+            
+                var html_778b2393e6284290806d13ae51339a60 = $('<div id="html_778b2393e6284290806d13ae51339a60" style="width: 100.0%; height: 100.0%;">{"city":"Schwyz","coordinates.latitude":47.067387,"coordinates.longitude":8.463334,"count":24356,"country":"CH","firstUpdated":1506063600000,"lastUpdated":1526284800000,"location":"CH0005R","parameters":["o3","so2","no2","pm25","pm10","co"],"sourceName":"EEA Switzerland","sourceNames":["EEA Switzerland"]}</div>')[0];
+                popup_f352a09eda9e468f96d2660c8581039c.setContent(html_778b2393e6284290806d13ae51339a60);
+            
+
+            marker_201b3a39ad0544488f310747d627721d.bindPopup(popup_f352a09eda9e468f96d2660c8581039c);
+
+            
+        
+    
+
+            var marker_b38fa2c6c72b4f62b0b2ca98da62807c = L.marker(
+                [47.541084,7.5832696],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_333ab1284f844cebba8d8da4ebedb983);
+            
+    
+            var popup_c87e70be464d434b8d18f92f398a9294 = L.popup({maxWidth: '300'});
+
+            
+                var html_58e73d4dff6d4beead87708019b17f42 = $('<div id="html_58e73d4dff6d4beead87708019b17f42" style="width: 100.0%; height: 100.0%;">{"city":"Basel-Landschaft","coordinates.latitude":47.541084,"coordinates.longitude":7.5832696,"count":20685,"country":"CH","firstUpdated":1506063600000,"lastUpdated":1526284800000,"location":"CH0008A","parameters":["pm25","pm10","o3","so2","no2"],"sourceName":"EEA Switzerland","sourceNames":["EEA Switzerland"]}</div>')[0];
+                popup_c87e70be464d434b8d18f92f398a9294.setContent(html_58e73d4dff6d4beead87708019b17f42);
+            
+
+            marker_b38fa2c6c72b4f62b0b2ca98da62807c.bindPopup(popup_c87e70be464d434b8d18f92f398a9294);
+
+            
+        
+    
+
+            var marker_9342023aa2bd491f97add6be1e71f33a = L.marker(
+                [47.377617,8.530411],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_333ab1284f844cebba8d8da4ebedb983);
+            
+    
+            var popup_ec3edfef90964aee90769ea5783e5587 = L.popup({maxWidth: '300'});
+
+            
+                var html_e1ad9d92b64a47f6851787c5c10056ba = $('<div id="html_e1ad9d92b64a47f6851787c5c10056ba" style="width: 100.0%; height: 100.0%;">{"city":"Z\u00fcrich","coordinates.latitude":47.377617,"coordinates.longitude":8.530411,"count":24911,"country":"CH","firstUpdated":1506063600000,"lastUpdated":1526284800000,"location":"CH0010A","parameters":["pm25","co","no2","pm10","o3","so2"],"sourceName":"EEA Switzerland","sourceNames":["EEA Switzerland"]}</div>')[0];
+                popup_ec3edfef90964aee90769ea5783e5587.setContent(html_e1ad9d92b64a47f6851787c5c10056ba);
+            
+
+            marker_9342023aa2bd491f97add6be1e71f33a.bindPopup(popup_ec3edfef90964aee90769ea5783e5587);
+
+            
+        
+    
+
+            var marker_f8a89f3fd6a04743ad7bdc708dd6a422 = L.marker(
+                [46.011112,8.957173],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_333ab1284f844cebba8d8da4ebedb983);
+            
+    
+            var popup_3e450f607b0243b997ad7be52c6131ff = L.popup({maxWidth: '300'});
+
+            
+                var html_0670ac2f79aa429bbc76017d8ec20c55 = $('<div id="html_0670ac2f79aa429bbc76017d8ec20c55" style="width: 100.0%; height: 100.0%;">{"city":"Ticino","coordinates.latitude":46.011112,"coordinates.longitude":8.957173,"count":25205,"country":"CH","firstUpdated":1506063600000,"lastUpdated":1526284800000,"location":"CH0011A","parameters":["pm25","no2","o3","co","pm10","so2"],"sourceName":"EEA Switzerland","sourceNames":["EEA Switzerland"]}</div>')[0];
+                popup_3e450f607b0243b997ad7be52c6131ff.setContent(html_0670ac2f79aa429bbc76017d8ec20c55);
+            
+
+            marker_f8a89f3fd6a04743ad7bdc708dd6a422.bindPopup(popup_3e450f607b0243b997ad7be52c6131ff);
+
+            
+        
+    
+
+            var marker_dfd735333c3c4d8b9df03325c5be5c97 = L.marker(
+                [47.386803,8.539807],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_333ab1284f844cebba8d8da4ebedb983);
+            
+    
+            var popup_e7ea504508fa4089acf69314ed86370c = L.popup({maxWidth: '300'});
+
+            
+                var html_c4e5af9821104d8596e328798a677fbc = $('<div id="html_c4e5af9821104d8596e328798a677fbc" style="width: 100.0%; height: 100.0%;">{"city":"Z\u00fcrich","coordinates.latitude":47.386803,"coordinates.longitude":8.539807,"count":21350,"country":"CH","firstUpdated":1506063600000,"lastUpdated":1526284800000,"location":"CH0013A","parameters":["so2","no2","co","pm10","o3"],"sourceName":"EEA Switzerland","sourceNames":["EEA Switzerland"]}</div>')[0];
+                popup_e7ea504508fa4089acf69314ed86370c.setContent(html_c4e5af9821104d8596e328798a677fbc);
+            
+
+            marker_dfd735333c3c4d8b9df03325c5be5c97.bindPopup(popup_e7ea504508fa4089acf69314ed86370c);
+
+            
+        
+    
+
+            var marker_d4b868d7eec449a49a2d2f0400123ac9 = L.marker(
+                [47.478195,8.364367],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_333ab1284f844cebba8d8da4ebedb983);
+            
+    
+            var popup_946bbb5e8d6846958db3566beacb46bb = L.popup({maxWidth: '300'});
+
+            
+                var html_78fca93f510344df9dec6bb3b56bafcf = $('<div id="html_78fca93f510344df9dec6bb3b56bafcf" style="width: 100.0%; height: 100.0%;">{"city":"Aargau","coordinates.latitude":47.478195,"coordinates.longitude":8.364367,"count":4173,"country":"CH","firstUpdated":1506063600000,"lastUpdated":1515416400000,"location":"CH0016A","parameters":["no2","o3"],"sourceName":"EEA Switzerland","sourceNames":["EEA Switzerland"]}</div>')[0];
+                popup_946bbb5e8d6846958db3566beacb46bb.setContent(html_78fca93f510344df9dec6bb3b56bafcf);
+            
+
+            marker_d4b868d7eec449a49a2d2f0400123ac9.bindPopup(popup_946bbb5e8d6846958db3566beacb46bb);
+
+            
+        
+    
+
+            var marker_3f87fefbfe7045519e0912e8fba39277 = L.marker(
+                [47.565914,7.5820775],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_333ab1284f844cebba8d8da4ebedb983);
+            
+    
+            var popup_7f73ad87124d4fcf88371ed843eafaf8 = L.popup({maxWidth: '300'});
+
+            
+                var html_fe038a33ab19442a9e83f645eab034d4 = $('<div id="html_fe038a33ab19442a9e83f645eab034d4" style="width: 100.0%; height: 100.0%;">{"city":"Basel-Stadt","coordinates.latitude":47.565914,"coordinates.longitude":7.5820775,"count":12191,"country":"CH","firstUpdated":1506063600000,"lastUpdated":1526284800000,"location":"CH0017A","parameters":["no2","o3","pm10"],"sourceName":"EEA Switzerland","sourceNames":["EEA Switzerland"]}</div>')[0];
+                popup_7f73ad87124d4fcf88371ed843eafaf8.setContent(html_fe038a33ab19442a9e83f645eab034d4);
+            
+
+            marker_3f87fefbfe7045519e0912e8fba39277.bindPopup(popup_7f73ad87124d4fcf88371ed843eafaf8);
+
+            
+        
+    
+
+            var marker_303b8fcfe74a48f2b6c7bc3fea3bc28d = L.marker(
+                [47.40699,9.394312],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_333ab1284f844cebba8d8da4ebedb983);
+            
+    
+            var popup_0b4c507350694c669647165b57123d07 = L.popup({maxWidth: '300'});
+
+            
+                var html_c82f82716a7446a4b0fad23c9344d79b = $('<div id="html_c82f82716a7446a4b0fad23c9344d79b" style="width: 100.0%; height: 100.0%;">{"city":"Sankt Gallen","coordinates.latitude":47.40699,"coordinates.longitude":9.394312,"count":12727,"country":"CH","firstUpdated":1506063600000,"lastUpdated":1526284800000,"location":"CH0019A","parameters":["pm10","o3","no2"],"sourceName":"EEA Switzerland","sourceNames":["EEA Switzerland"]}</div>')[0];
+                popup_0b4c507350694c669647165b57123d07.setContent(html_c82f82716a7446a4b0fad23c9344d79b);
+            
+
+            marker_303b8fcfe74a48f2b6c7bc3fea3bc28d.bindPopup(popup_0b4c507350694c669647165b57123d07);
+
+            
+        
+    
+
+            var marker_a4b9537dc9b745bb888c52a0693a29d5 = L.marker(
+                [47.370945,8.523541],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_333ab1284f844cebba8d8da4ebedb983);
+            
+    
+            var popup_98b1e7e20d754894bd2d2aaabd5252f3 = L.popup({maxWidth: '300'});
+
+            
+                var html_07909efd3f8b439bb7ca517b29005c9a = $('<div id="html_07909efd3f8b439bb7ca517b29005c9a" style="width: 100.0%; height: 100.0%;">{"city":"Z\u00fcrich","coordinates.latitude":47.370945,"coordinates.longitude":8.523541,"count":12663,"country":"CH","firstUpdated":1506063600000,"lastUpdated":1526284800000,"location":"CH0021A","parameters":["no2","o3","pm10"],"sourceName":"EEA Switzerland","sourceNames":["EEA Switzerland"]}</div>')[0];
+                popup_98b1e7e20d754894bd2d2aaabd5252f3.setContent(html_07909efd3f8b439bb7ca517b29005c9a);
+            
+
+            marker_a4b9537dc9b745bb888c52a0693a29d5.bindPopup(popup_98b1e7e20d754894bd2d2aaabd5252f3);
+
+            
+        
+    
+
+            var marker_b2c30c503d6e49d09efc4d81b5434db7 = L.marker(
+                [47.06769,8.300675],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_333ab1284f844cebba8d8da4ebedb983);
+            
+    
+            var popup_64fd98122285436abada62a4a3bb7440 = L.popup({maxWidth: '300'});
+
+            
+                var html_9e8b963fd6dc45798496300b9dee6a7b = $('<div id="html_9e8b963fd6dc45798496300b9dee6a7b" style="width: 100.0%; height: 100.0%;">{"city":"Lucerne","coordinates.latitude":47.06769,"coordinates.longitude":8.300675,"count":8593,"country":"CH","firstUpdated":1506063600000,"lastUpdated":1526284800000,"location":"CH0022A","parameters":["pm10","o3"],"sourceName":"EEA Switzerland","sourceNames":["EEA Switzerland"]}</div>')[0];
+                popup_64fd98122285436abada62a4a3bb7440.setContent(html_9e8b963fd6dc45798496300b9dee6a7b);
+            
+
+            marker_b2c30c503d6e49d09efc4d81b5434db7.bindPopup(popup_64fd98122285436abada62a4a3bb7440);
+
+            
+        
+    
+
+            var marker_6985f9d8b3d14c679d3f66712b7bdeb7 = L.marker(
+                [46.13899,7.148333],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_333ab1284f844cebba8d8da4ebedb983);
+            
+    
+            var popup_31b497d8e4274135be7e721099f49a77 = L.popup({maxWidth: '300'});
+
+            
+                var html_5790f75cbee446a3a4a23f2e0318a7a0 = $('<div id="html_5790f75cbee446a3a4a23f2e0318a7a0" style="width: 100.0%; height: 100.0%;">{"city":"Valais","coordinates.latitude":46.13899,"coordinates.longitude":7.148333,"count":12864,"country":"CH","firstUpdated":1506063600000,"lastUpdated":1526284800000,"location":"CH0024A","parameters":["o3","no2","pm10"],"sourceName":"EEA Switzerland","sourceNames":["EEA Switzerland"]}</div>')[0];
+                popup_31b497d8e4274135be7e721099f49a77.setContent(html_5790f75cbee446a3a4a23f2e0318a7a0);
+            
+
+            marker_6985f9d8b3d14c679d3f66712b7bdeb7.bindPopup(popup_31b497d8e4274135be7e721099f49a77);
+
+            
+        
+    
+
+            var marker_f86de938cb1b4b57b1a7809bfe982f6b = L.marker(
+                [46.52201,6.6397],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_333ab1284f844cebba8d8da4ebedb983);
+            
+    
+            var popup_5a75430b947943c0815006cd5ebfac82 = L.popup({maxWidth: '300'});
+
+            
+                var html_15fe109a912e4d3d8ba3f2008467a5a5 = $('<div id="html_15fe109a912e4d3d8ba3f2008467a5a5" style="width: 100.0%; height: 100.0%;">{"city":"Vaud","coordinates.latitude":46.52201,"coordinates.longitude":6.6397,"count":17265,"country":"CH","firstUpdated":1506063600000,"lastUpdated":1526284800000,"location":"CH0028A","parameters":["no2","o3","pm10","co"],"sourceName":"EEA Switzerland","sourceNames":["EEA Switzerland"]}</div>')[0];
+                popup_5a75430b947943c0815006cd5ebfac82.setContent(html_15fe109a912e4d3d8ba3f2008467a5a5);
+            
+
+            marker_f86de938cb1b4b57b1a7809bfe982f6b.bindPopup(popup_5a75430b947943c0815006cd5ebfac82);
+
+            
+        
+    
+
+            var marker_1fcaf588d354419d9c65b590c723c4f1 = L.marker(
+                [47.567005,7.594708],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_333ab1284f844cebba8d8da4ebedb983);
+            
+    
+            var popup_a34e39f51e2f4ed0ba1dbb82eefee602 = L.popup({maxWidth: '300'});
+
+            
+                var html_aaa0cd9386c549bb907f4ef85df205b2 = $('<div id="html_aaa0cd9386c549bb907f4ef85df205b2" style="width: 100.0%; height: 100.0%;">{"city":"Basel-Stadt","coordinates.latitude":47.567005,"coordinates.longitude":7.594708,"count":3798,"country":"CH","firstUpdated":1516809600000,"lastUpdated":1526284800000,"location":"CH0029A","parameters":["no2","pm10"],"sourceName":"EEA Switzerland","sourceNames":["EEA Switzerland"]}</div>')[0];
+                popup_a34e39f51e2f4ed0ba1dbb82eefee602.setContent(html_aaa0cd9386c549bb907f4ef85df205b2);
+            
+
+            marker_1fcaf588d354419d9c65b590c723c4f1.bindPopup(popup_a34e39f51e2f4ed0ba1dbb82eefee602);
+
+            
+        
+    
+
+            var marker_291a924a6b6d4a6788142db3a9e7ddfe = L.marker(
+                [46.951,7.4408712],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_333ab1284f844cebba8d8da4ebedb983);
+            
+    
+            var popup_2ba15a807e214fe693a3746a26fcc544 = L.popup({maxWidth: '300'});
+
+            
+                var html_171841d35a094c2b9286aec4d092c02f = $('<div id="html_171841d35a094c2b9286aec4d092c02f" style="width: 100.0%; height: 100.0%;">{"city":"Bern","coordinates.latitude":46.951,"coordinates.longitude":7.4408712,"count":19016,"country":"CH","firstUpdated":1506063600000,"lastUpdated":1526284800000,"location":"CH0031A","parameters":["o3","pm25","no2","co","pm10"],"sourceName":"EEA Switzerland","sourceNames":["EEA Switzerland"]}</div>')[0];
+                popup_2ba15a807e214fe693a3746a26fcc544.setContent(html_171841d35a094c2b9286aec4d092c02f);
+            
+
+            marker_291a924a6b6d4a6788142db3a9e7ddfe.bindPopup(popup_2ba15a807e214fe693a3746a26fcc544);
+
+            
+        
+    
+
+            var marker_59077f4100504dcebc7c30326b0c61af = L.marker(
+                [46.160397,8.933943],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_333ab1284f844cebba8d8da4ebedb983);
+            
+    
+            var popup_dd07603ce7b2458799d1b83dc6e207bf = L.popup({maxWidth: '300'});
+
+            
+                var html_96f796ed15ac4f2abbcba0adac32d20d = $('<div id="html_96f796ed15ac4f2abbcba0adac32d20d" style="width: 100.0%; height: 100.0%;">{"city":"Ticino","coordinates.latitude":46.160397,"coordinates.longitude":8.933943,"count":20887,"country":"CH","firstUpdated":1506063600000,"lastUpdated":1526284800000,"location":"CH0033A","parameters":["pm10","o3","so2","no2","pm25"],"sourceName":"EEA Switzerland","sourceNames":["EEA Switzerland"]}</div>')[0];
+                popup_dd07603ce7b2458799d1b83dc6e207bf.setContent(html_96f796ed15ac4f2abbcba0adac32d20d);
+            
+
+            marker_59077f4100504dcebc7c30326b0c61af.bindPopup(popup_dd07603ce7b2458799d1b83dc6e207bf);
+
+            
+        
+    
+
+            var marker_f9ad1f663f344a0f96040230d359e8a0 = L.marker(
+                [46.976383,7.4787173],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_333ab1284f844cebba8d8da4ebedb983);
+            
+    
+            var popup_ade1b455b70b42c09b46b94b580ea555 = L.popup({maxWidth: '300'});
+
+            
+                var html_a00f4904fbb74e39a9ce7c7259916470 = $('<div id="html_a00f4904fbb74e39a9ce7c7259916470" style="width: 100.0%; height: 100.0%;">{"city":"Bern","coordinates.latitude":46.976383,"coordinates.longitude":7.4787173,"count":16584,"country":"CH","firstUpdated":1505995200000,"lastUpdated":1526284800000,"location":"CH0041A","parameters":["o3","pm10","no2","so2"],"sourceName":"EEA Switzerland","sourceNames":["EEA Switzerland"]}</div>')[0];
+                popup_ade1b455b70b42c09b46b94b580ea555.setContent(html_a00f4904fbb74e39a9ce7c7259916470);
+            
+
+            marker_f9ad1f663f344a0f96040230d359e8a0.bindPopup(popup_ade1b455b70b42c09b46b94b580ea555);
+
+            
+        
+    
+
+            var marker_4dd915a8f7d54b47b020c7a642159711 = L.marker(
+                [46.025894,8.967523],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_333ab1284f844cebba8d8da4ebedb983);
+            
+    
+            var popup_d267516a319a413181df9fb665cf43d3 = L.popup({maxWidth: '300'});
+
+            
+                var html_dd6ada4255274a65904940e9318f02d6 = $('<div id="html_dd6ada4255274a65904940e9318f02d6" style="width: 100.0%; height: 100.0%;">{"city":"Ticino","coordinates.latitude":46.025894,"coordinates.longitude":8.967523,"count":12853,"country":"CH","firstUpdated":1506063600000,"lastUpdated":1526284800000,"location":"CH0043A","parameters":["o3","no2","pm10"],"sourceName":"EEA Switzerland","sourceNames":["EEA Switzerland"]}</div>')[0];
+                popup_d267516a319a413181df9fb665cf43d3.setContent(html_dd6ada4255274a65904940e9318f02d6);
+            
+
+            marker_4dd915a8f7d54b47b020c7a642159711.bindPopup(popup_d267516a319a413181df9fb665cf43d3);
+
+            
+        
+    
+
+            var marker_ded6a64cc09b48b29d1e221f9c9258cb = L.marker(
+                [47.438732,8.57012],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_333ab1284f844cebba8d8da4ebedb983);
+            
+    
+            var popup_939c509d1d56442bacef6427ebbb39a5 = L.popup({maxWidth: '300'});
+
+            
+                var html_1583e561b5424ad4a008e090e436759c = $('<div id="html_1583e561b5424ad4a008e090e436759c" style="width: 100.0%; height: 100.0%;">{"city":"Z\u00fcrich","coordinates.latitude":47.438732,"coordinates.longitude":8.57012,"count":12849,"country":"CH","firstUpdated":1506063600000,"lastUpdated":1526284800000,"location":"CH0044A","parameters":["no2","o3","pm10"],"sourceName":"EEA Switzerland","sourceNames":["EEA Switzerland"]}</div>')[0];
+                popup_939c509d1d56442bacef6427ebbb39a5.setContent(html_1583e561b5424ad4a008e090e436759c);
+            
+
+            marker_ded6a64cc09b48b29d1e221f9c9258cb.bindPopup(popup_939c509d1d56442bacef6427ebbb39a5);
+
+            
+        
+    
+
+            var marker_af6e8064b42e4eb3891ed23dc71ba82b = L.marker(
+                [46.195602,6.2112484],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_333ab1284f844cebba8d8da4ebedb983);
+            
+    
+            var popup_e337072f42d84042a7e1b84619f806b6 = L.popup({maxWidth: '300'});
+
+            
+                var html_9cd06b5fd65a42e3b8512bc22f7cdc38 = $('<div id="html_9cd06b5fd65a42e3b8512bc22f7cdc38" style="width: 100.0%; height: 100.0%;">{"city":"Gen\u00e8ve","coordinates.latitude":46.195602,"coordinates.longitude":6.2112484,"count":12632,"country":"CH","firstUpdated":1506063600000,"lastUpdated":1526284800000,"location":"CH0046A","parameters":["no2","o3","pm10"],"sourceName":"EEA Switzerland","sourceNames":["EEA Switzerland"]}</div>')[0];
+                popup_e337072f42d84042a7e1b84619f806b6.setContent(html_9cd06b5fd65a42e3b8512bc22f7cdc38);
+            
+
+            marker_af6e8064b42e4eb3891ed23dc71ba82b.bindPopup(popup_e337072f42d84042a7e1b84619f806b6);
+
+            
+        
+    
+
+            var marker_e15ee47238b44a3bb4dda4890a2b4d83 = L.marker(
+                [46.231094,6.0741744],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_333ab1284f844cebba8d8da4ebedb983);
+            
+    
+            var popup_dc00bb6a2c15492e9b44ea9816dfa573 = L.popup({maxWidth: '300'});
+
+            
+                var html_403471ee07634f95856ea0b9f803b411 = $('<div id="html_403471ee07634f95856ea0b9f803b411" style="width: 100.0%; height: 100.0%;">{"city":"Gen\u00e8ve","coordinates.latitude":46.231094,"coordinates.longitude":6.0741744,"count":12644,"country":"CH","firstUpdated":1506063600000,"lastUpdated":1526284800000,"location":"CH0050A","parameters":["no2","o3","pm10"],"sourceName":"EEA Switzerland","sourceNames":["EEA Switzerland"]}</div>')[0];
+                popup_dc00bb6a2c15492e9b44ea9816dfa573.setContent(html_403471ee07634f95856ea0b9f803b411);
+            
+
+            marker_e15ee47238b44a3bb4dda4890a2b4d83.bindPopup(popup_dc00bb6a2c15492e9b44ea9816dfa573);
+
+            
+        
+    
+
+            var marker_35b777e2f12446c585a14f721bc573ec = L.marker(
+                [46.16257,6.0051837],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_333ab1284f844cebba8d8da4ebedb983);
+            
+    
+            var popup_5182d85a4c6240ff9a15a82df91c08f5 = L.popup({maxWidth: '300'});
+
+            
+                var html_9b531f51eed34c4a8c253effeb8c1566 = $('<div id="html_9b531f51eed34c4a8c253effeb8c1566" style="width: 100.0%; height: 100.0%;">{"city":"Gen\u00e8ve","coordinates.latitude":46.16257,"coordinates.longitude":6.0051837,"count":12655,"country":"CH","firstUpdated":1506063600000,"lastUpdated":1526284800000,"location":"CH0051A","parameters":["pm10","no2","o3"],"sourceName":"EEA Switzerland","sourceNames":["EEA Switzerland"]}</div>')[0];
+                popup_5182d85a4c6240ff9a15a82df91c08f5.setContent(html_9b531f51eed34c4a8c253effeb8c1566);
+            
+
+            marker_35b777e2f12446c585a14f721bc573ec.bindPopup(popup_5182d85a4c6240ff9a15a82df91c08f5);
+
+            
+        
+</script>
