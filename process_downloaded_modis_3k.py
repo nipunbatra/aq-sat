@@ -10,7 +10,7 @@ station = pd.read_csv("station.csv", index_col=0)
 
 
 
-base_path = os.path.expanduser("~/modis/")
+base_path = os.path.expanduser("~/modis_2016/")
 fileList = glob.glob(f"{base_path}*.hdf")[:]
 #loops through all files listed in the text file
 out = []
@@ -29,9 +29,10 @@ for index, FILE_NAME in enumerate(fileList):
 
         print('This is a 10km MODIS file. Leavong... ')
         continue
-        dataFields=dict([(1,'Deep_Blue_Aerosol_Optical_Depth_550_Land'),(2,'AOD_550_Dark_Target_Deep_Blue_Combined'),
-                         (3,'AOD_550_Dark_Target_Deep_Blue_Combined_QA_Flag'), (4,'Aerosol_Cloud_Fraction_Land'),
-                        (5, 'Image_Optical_Depth_Land_And_Ocean')])
+        dataFields = dict(
+            [(1, 'Deep_Blue_Aerosol_Optical_Depth_550_Land'), (2, 'AOD_550_Dark_Target_Deep_Blue_Combined'),
+             (3, 'AOD_550_Dark_Target_Deep_Blue_Combined_QA_Flag'), (4, 'Aerosol_Cloud_Fraction_Land'),
+             (5, 'Image_Optical_Depth_Land_And_Ocean')])
     else:
         print('The file :',FILE_NAME, ' is not a valid MODIS file (or is named incorrectly). \n')
         continue
@@ -135,4 +136,4 @@ for index, FILE_NAME in enumerate(fileList):
         o.append(t)
     out.append(pd.concat(o))
 modis = pd.concat(out)
-modis.to_csv("modis-2017-3k.csv")
+modis.to_csv("modis-2016-3k.csv")
