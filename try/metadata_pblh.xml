@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata tile="Planetary Boundary Layer Height">
+<Abstract xml:space="preserve">Planetary Boundary Layer (PBL) is the lowest part of troposphere, where significant transfer of energy, momentum, and mass between earth surface and atmosphere occurs. As expansion and contraction of PBL govern the surface level concentration of atmospheric constituents, planetary boundary layer height (PBLH) is an important parameter for PBL characterisation and also for evaluation of climate, weather and air quality models. Planetary Boundary Layer Height (PBLH) over the Indian land mass is estimated using vertical profiles of temperature and relative humidity from Cross track Infrared Sounder (CrIS) onboard Suomi-NPP, through integration of five different methods. The integrated approach is performed by comparing PBLH values estimated from vertical gradients of  potential temperature (PT), virtual potential temperature (VPT), relative humidity (RH), refractivity (N ) and specific humidity (q). If at least three of them are consistent with the same value, it is considered as the PBLH. PBLH values estimated through the integrated approach show reasonable comparison with the estimates using radiosonde profiles and COSMIC GPS Radio Occultation measurements. Following the integrated approach, day time PBLH over Indian land mass is retrieved on daily basis and are further averaged for seven days and monthly mean values.</Abstract>
+<MD_Keywords xml:space="preserve">Planetary boundary layer height, Atmopsheric boundary layer, Suomi-NPP, Cross track Infrared Sounder</MD_Keywords>
+<language>English</language>
+<StartDate xml:space="preserve">01-09-2014</StartDate>
+<StopDate xml:space="preserve">30-04-2018</StopDate>
+<Geographic_Box xml:space="preserve">05°N - 40°N; 50°E - 110°E</Geographic_Box>
+<Units>meter</Units>
+<MD_Category xml:space="preserve">Indian landmass</MD_Category>
+<Resolution>0.25° x 0.25°</Resolution>
+<File_Format_Image>JPEG</File_Format_Image>
+<File_Format_Data>NetCDF</File_Format_Data>
+<Theme>Atmosphere, Weather and Climate</Theme>
+<Contact_Information>
+<Contact_Address xml:space="preserve">Atmospheric & Climate Sciences Group (ACSG), Earth & Climate Sciences Area (ECSA)</Contact_Address>
+<Organisation xml:space="preserve">National Remote Sensing Centre, ISRO</Organisation>
+<Mailing_Address>Balanagar</Mailing_Address>
+<City>Hyderabad</City>
+<Country>India</Country>
+</Contact_Information>
+</metadata>
+
+
+
+
+
+
+
+
+
+
+
+
