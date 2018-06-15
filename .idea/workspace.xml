@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="620f6459-befd-415d-887e-4aca2d20b40b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Readme.md" afterPath="$PROJECT_DIR$/Readme.md" />
-      <change beforePath="$PROJECT_DIR$/pm25-modis.ipynb" afterPath="$PROJECT_DIR$/pm25-modis.ipynb" />
-      <change beforePath="$PROJECT_DIR$/process_downloaded_modis.py" afterPath="$PROJECT_DIR$/process_downloaded_modis.py" />
-    </list>
+    <list default="true" id="620f6459-befd-415d-887e-4aca2d20b40b" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
